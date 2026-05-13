@@ -60,3 +60,8 @@ logo{
     color: beige;
 }
 
+.utility{
+    display: flex;
+    align-items: center;
+}
+
