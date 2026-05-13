@@ -55,3 +55,8 @@ logo{
     letter-spacing: 1px;
     padding: 10px;
 }
+
+.nav li a:hover{
+    color: beige;
+}
+
