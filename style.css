@@ -32,3 +32,8 @@ logo{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.nav{
+    display: flex;
+    align-items: center;
+}
