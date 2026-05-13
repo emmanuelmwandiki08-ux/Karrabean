@@ -43,3 +43,15 @@ logo{
     list-style: none;
     margin: 0 20px;
 }
+
+.nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
