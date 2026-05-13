@@ -22,3 +22,13 @@ header{
     transition: 0.5s;
     z-index: 1100;
 }
+
+logo{
+    position: relative;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
