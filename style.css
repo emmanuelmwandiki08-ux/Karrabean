@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #ffffff;
+    background: #000;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -65,3 +65,24 @@ logo{
     align-items: center;
 }
 
+.utility li{
+    position: relative;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.utility li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.utility li a ion-icon{
+    font-size: 1.6em;
+}
+
+.utility li a:hover{
+    color: beige;
+}
+
+.utility li .number
