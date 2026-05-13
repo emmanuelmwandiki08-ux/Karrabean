@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #000;
+    background: #ffffff;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -23,7 +23,7 @@ header{
     z-index: 1100;
 }
 
-logo{
+.logo{
     position: relative;
     font-size: 30px;
     color: #ffffff;
@@ -85,4 +85,18 @@ logo{
     color: beige;
 }
 
-.utility li .number
+.utility li .number{
+    position: absolute;
+    right: -1px;
+    bottom: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 0.6em;
+    font-weight: 400;
+}
