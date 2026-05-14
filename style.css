@@ -183,3 +183,14 @@ section.call-up{
     font-size: 7em;
     color: red;
 }
+
+.box h4{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.box p{
+    font-weight: 300;
+}
