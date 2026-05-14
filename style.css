@@ -6,7 +6,11 @@
 }
 
 body{
-    background: #477023;
+    background-image: url(KRB.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -99,4 +103,9 @@ header{
     align-items: center;
     font-style: 0.6em;
     font-weight: 400;
+}
+
+.hero{
+    background: url(KRB.jpeg);
+
 }
