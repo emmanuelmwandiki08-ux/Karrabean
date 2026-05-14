@@ -108,7 +108,7 @@ header{
 
 .hero{
     position: relative;
-    top: 30em;
+    top: 25em;
     left: 33em;
     margin-bottom: 10px;
 
@@ -118,5 +118,42 @@ header{
     font-size: 25px;
     font-weight: 700;
     text-transform: capitalize;
+    padding: 15px;
+    position: relative;
+    left: 100px;
 }
+
+.hero .one {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: 35px;
+    background: #000;
+    padding: 5px;
+   text-transform: capitalize;
+   border-radius: 5%;
+}
+
+.hero .one:hover{
+    color: #d99201;
+}
+
+.hero .two {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: 60px;
+    background: #000;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5%;
+    
+}
+
+.hero .two:hover{
+    color: #d99201;
+
+}
+
+
 
