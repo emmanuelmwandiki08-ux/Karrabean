@@ -237,3 +237,7 @@ section.call-up{
     align-items: end;
     padding: 50px;
 }
+
+.about-box{
+    overflow: hidden;
+}
