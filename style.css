@@ -11,7 +11,8 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 header{
@@ -106,5 +107,16 @@ header{
 }
 
 .hero{
-    
+    position: relative;
+    top: 30em;
+    left: 33em;
+    margin-bottom: 10px;
+
 }
+
+.hero .text {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
