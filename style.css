@@ -194,3 +194,12 @@ section.call-up{
 .box p{
     font-weight: 300;
 }
+
+
+.about{
+    padding: 100px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
