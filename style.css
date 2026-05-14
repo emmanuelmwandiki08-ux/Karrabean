@@ -31,7 +31,7 @@ header{
 .logo{
     position: relative;
     font-size: 30px;
-    color: #ffffff;
+    color: #477023;
     letter-spacing: 2px;
     font-weight: 800;
     text-decoration: none;
@@ -50,7 +50,7 @@ header{
 }
 
 .nav li a{
-    color: #ffffff;
+    color: #6a1416;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -62,7 +62,7 @@ header{
 }
 
 .nav li a:hover{
-    color: beige;
+    color: #d99201;
 }
 
 .utility{
@@ -78,7 +78,7 @@ header{
 
 .utility li a{
     text-decoration: none;
-    color: #ffffff;
+    color: #6a1416;
     transition: 0.5s;
 }
 
@@ -87,7 +87,7 @@ header{
 }
 
 .utility li a:hover{
-    color: beige;
+    color: #d99201;
 }
 
 .utility li .number{
@@ -113,7 +113,7 @@ header{
     align-items: center;     
     min-height: 100vh;     
     text-align: center;
-    color: #fff;
+    color: #d99201;
 }
 
 .hero .text {
@@ -131,7 +131,7 @@ header{
 
 .hero .one, .hero .two {
     font-size: 18px;
-    color: #fff;
+    color: #d99201;
     background: #000;
     padding: 12px 30px;
     text-transform: capitalize;
@@ -141,11 +141,11 @@ header{
 }
 
 .hero .one:hover{
-    color: #d99201;
+    color: #fff;
 }
 
 .hero .two:hover{
-    color: #d99201;
+    color: #fff;
 }
 
 .hero .one{
@@ -270,3 +270,50 @@ section.call-up{
     transition: 0.5s;
 }
 
+.about .description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 400;
+}
+
+.about .description h4{
+    position: relative;
+    color: #d99201;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about .description h4 ::after{
+    position: absolute;
+    background: Red;
+    bottom: -10px;
+    left: 0;
+    width: 70%;
+    height: 3px;
+}
+
+.about .description p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.about a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+}
+
+.about a:hover{
+    gap: 10px;
+
+}
