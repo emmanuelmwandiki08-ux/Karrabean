@@ -160,3 +160,26 @@ main {
     z-index: 10;
 }
 
+section.call-up{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background: #fff;
+}
+
+.box ion-icon{
+    font-size: 7em;
+    color: red;
+}
